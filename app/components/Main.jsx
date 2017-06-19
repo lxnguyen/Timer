@@ -5,13 +5,8 @@ const Main = (props) => {
 	return(
 		<div>
 			<Nav/>
-			<div>
-					<div>
-						<div>
-							{props.children}
-						</div>
-					</div>
-				
+			<div className="main-app">
+				{props.children}
 			</div>
 		</div>
 	)

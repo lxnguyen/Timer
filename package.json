@@ -1,7 +1,7 @@
 {
   "name": "timer",
   "version": "1.0.0",
-  "description": “Simple Timer App using React”,
+  "description": "Simple React App",
   "main": "index.js",
   "scripts": {
     "test": "karma start",

@@ -1,4 +1,5 @@
 @import 'components/clock.css';
+@import 'components/controls.css';
 
 .main-app{
 	margin: 0 auto;

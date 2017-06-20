@@ -15,8 +15,8 @@ describe('Clock', () => {
   	it('should render clock to output', () => {
   		const clock = TestUtils.renderIntoDocument(<Clock totalSeconds={62}/>);
 		// Convert it into jQuery object
-		let $el = $(ReactDOM.findDOMNode(clock));
-		let actualText = $el.find('.clock-text').text();
+		const $el = $(ReactDOM.findDOMNode(clock));
+		const actualText = $el.find('.clock-text').text();
 		
 		expect(actualText).toBe('01:02');
   	});

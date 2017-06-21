@@ -1,8 +1,9 @@
 @import 'components/clock.css';
 @import 'components/controls.css';
+@import 'components/pageTitle.css';
+@import 'components/countdownClock.css';
 
 .main-app{
 	margin: 0 auto;
-	max-width: 14rem;
 	width: 100%;
 }
